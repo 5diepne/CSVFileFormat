@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author huypd
+ * @author DiepTCNN
  */
 public class Library {
     protected Scanner sc;

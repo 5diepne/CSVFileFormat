@@ -10,15 +10,12 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import model.CSV;
 
 /**
  *
- * @author huypd
+ * @author DiepTCNN
  */
 public class Algorithm {
     Library l = new Library();
@@ -80,6 +77,7 @@ public class Algorithm {
             bw.write(line);
             bw.newLine();
         }
+            bw.close();
         } catch (IOException ex) {
             ex.getMessage();
         }

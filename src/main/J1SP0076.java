@@ -8,7 +8,7 @@ import controller.CSVProgram;
 
 /**
  *
- * @author huypd
+ * @author DiepTCNN
  */
 public class J1SP0076 {
 

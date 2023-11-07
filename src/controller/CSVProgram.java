@@ -12,7 +12,7 @@ import view.Menu;
 
 /**
  *
- * @author huypd
+ * @author DiepTCNN
  */
 public class CSVProgram extends Menu<String> {
     static String[] options = {"Import CSV", "Format Address", "Format Name", "Export CSV", "Exit."};

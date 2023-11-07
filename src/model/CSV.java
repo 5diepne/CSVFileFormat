@@ -6,7 +6,7 @@ package model;
 
 /**
  *
- * @author huypd
+ * @author DiepTCNN
  */
 public class CSV {
     private int id;
